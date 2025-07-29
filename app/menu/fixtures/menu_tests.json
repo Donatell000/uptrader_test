@@ -1,0 +1,458 @@
+[
+{
+    "model": "menu.menuitem",
+    "pk": 7,
+    "fields": {
+        "name": "Главное меню",
+        "slug": "main",
+        "parent": null,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 8,
+    "fields": {
+        "name": "Игры",
+        "slug": "games",
+        "parent": 7,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 9,
+    "fields": {
+        "name": "Мультфильмы",
+        "slug": "multfilms",
+        "parent": 7,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 10,
+    "fields": {
+        "name": "Учеба",
+        "slug": "study",
+        "parent": 7,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 11,
+    "fields": {
+        "name": "О нас",
+        "slug": "about",
+        "parent": 7,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 12,
+    "fields": {
+        "name": "Настольные",
+        "slug": "board_games",
+        "parent": 8,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 13,
+    "fields": {
+        "name": "Компьютерные",
+        "slug": "computer_games",
+        "parent": 8,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 14,
+    "fields": {
+        "name": "Шахматы",
+        "slug": "chess",
+        "parent": 12,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 15,
+    "fields": {
+        "name": "Монополия",
+        "slug": "monopoly",
+        "parent": 12,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 16,
+    "fields": {
+        "name": "Классическая",
+        "slug": "monopoly_classic",
+        "parent": 15,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 17,
+    "fields": {
+        "name": "Юниор",
+        "slug": "monopoly_junior",
+        "parent": 15,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 18,
+    "fields": {
+        "name": "Приключения",
+        "slug": "adventures",
+        "parent": 13,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 19,
+    "fields": {
+        "name": "Гонки",
+        "slug": "race",
+        "parent": 13,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 20,
+    "fields": {
+        "name": "Disney",
+        "slug": "multfilms_disney",
+        "parent": 9,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 21,
+    "fields": {
+        "name": "Pixar",
+        "slug": "multfilms_pixar",
+        "parent": 9,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 22,
+    "fields": {
+        "name": "Король лев",
+        "slug": "lion_king",
+        "parent": 20,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 23,
+    "fields": {
+        "name": "Холодное сердце",
+        "slug": "cold_heart",
+        "parent": 20,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 24,
+    "fields": {
+        "name": "История игрушек",
+        "slug": "toy_story",
+        "parent": 21,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 25,
+    "fields": {
+        "name": "Тайна коко",
+        "slug": "the_secret_of_coco",
+        "parent": 21,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 26,
+    "fields": {
+        "name": "Математика",
+        "slug": "mathematic",
+        "parent": 10,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 27,
+    "fields": {
+        "name": "Чтение",
+        "slug": "reading",
+        "parent": 10,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 28,
+    "fields": {
+        "name": "Контакты",
+        "slug": "contacts",
+        "parent": 11,
+        "menu_name": "main_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 29,
+    "fields": {
+        "name": "Второе меню",
+        "slug": "second_menu",
+        "parent": null,
+        "menu_name": "second_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 30,
+    "fields": {
+        "name": "Раздел 1",
+        "slug": "section_1",
+        "parent": 29,
+        "menu_name": "second_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 31,
+    "fields": {
+        "name": "Раздел 2",
+        "slug": "section_2",
+        "parent": 29,
+        "menu_name": "second_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 32,
+    "fields": {
+        "name": "Подраздел 1",
+        "slug": "subsection_1",
+        "parent": 30,
+        "menu_name": "second_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 33,
+    "fields": {
+        "name": "Третье меню",
+        "slug": "third_menu",
+        "parent": null,
+        "menu_name": "third_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 34,
+    "fields": {
+        "name": "Категория A",
+        "slug": "category_a",
+        "parent": 33,
+        "menu_name": "third_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 35,
+    "fields": {
+        "name": "Категория B",
+        "slug": "category_b",
+        "parent": 33,
+        "menu_name": "third_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 36,
+    "fields": {
+        "name": "Подкатегория A1",
+        "slug": "subcategory_a1",
+        "parent": 34,
+        "menu_name": "third_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 37,
+    "fields": {
+        "name": "Подкатегория A2",
+        "slug": "subcategory_a2",
+        "parent": 34,
+        "menu_name": "third_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 38,
+    "fields": {
+        "name": "Подкатегория B1",
+        "slug": "subcategory_b1",
+        "parent": 35,
+        "menu_name": "third_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 39,
+    "fields": {
+        "name": "Подкатегория B2",
+        "slug": "subcategory_b2",
+        "parent": 35,
+        "menu_name": "third_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 40,
+    "fields": {
+        "name": "Четвертое меню",
+        "slug": "fourth_menu",
+        "parent": null,
+        "menu_name": "fourth_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 41,
+    "fields": {
+        "name": "Опция 1",
+        "slug": "option_1",
+        "parent": 40,
+        "menu_name": "fourth_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 42,
+    "fields": {
+        "name": "Опция 2",
+        "slug": "option_2",
+        "parent": 40,
+        "menu_name": "fourth_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 43,
+    "fields": {
+        "name": "Подопция 1",
+        "slug": "suboption_1",
+        "parent": 41,
+        "menu_name": "fourth_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 44,
+    "fields": {
+        "name": "Подопция 2",
+        "slug": "suboption_2",
+        "parent": 41,
+        "menu_name": "fourth_menu",
+        "named_url": null,
+        "custom_url": null
+    }
+}
+]

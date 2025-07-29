@@ -1,0 +1,42 @@
+services:
+  web:
+    container_name: web_uptrader_test
+    build:
+      context: .
+      dockerfile: ./compose/django/Dockerfile
+    command: bash -c "python manage.py collectstatic --noinput && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./app/:/usr/src/app/:delegated
+      - static_volume:/usr/src/app/static
+    env_file:
+      - ./app/.env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres-db
+    expose:
+      - 8000
+    networks:
+      - django_network
+
+  postgres-db:
+    build:
+      context: .
+      dockerfile: ./compose/postgres/Dockerfile
+    container_name: postgres-db_uptrader_test
+    env_file:
+      - .env.db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - django_network
+
+volumes:
+  postgres_data:
+  static_volume:
+
+networks:
+  django_network:
+    driver: bridge
